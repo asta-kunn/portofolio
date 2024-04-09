@@ -10,8 +10,8 @@ export default function Introduction() {
         <BadgeLocation />
 
         <p className="font-medium text-balance text-center">
-          Passionate web development with strong focused on front-end web
-          development. With a strong foundation in
+          Passionate Software Engginering with strong focused on web development
+          With a strong foundation in
           <LinkInParagraph
             text=" Javascript,"
             href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"
@@ -20,11 +20,19 @@ export default function Introduction() {
             text=" Typescript "
             href="https://www.typescriptlang.org/"
           />
-          With a comprehensive understanding of various frontend libraries and frameworks.
+          With a comprehensive understanding of various fullstack libraries and frameworks.
           Currently focus on
           <LinkInParagraph text=" React.js " href="https://react.dev/" />
-          and
+          ,
           <LinkInParagraph text=" Next.js " href="https://nextjs.org/" />
+          ,
+          <LinkInParagraph text=" Express.js " href="https://expressjs.com/" />
+          ,
+          <LinkInParagraph text=" SpringBoot " href="https://spring.io/projects/spring-boot" />
+          ,
+          <LinkInParagraph text=" Django Rest Framework " href="https://www.django-rest-framework.org/" />
+          and
+          <LinkInParagraph text=" Golang " href="https://golang.org/" />
           for web development technologies
         </p>
       </div>

@@ -25,6 +25,14 @@ const myTechStack = [
   'Redux',
   'ReactHookForm',
   'Zustand',
+  'Springboot',
+  'Jupyter',
+  'ExpressJs',
+  'Postgresql',
+  'Django',
+  'PyCharm',
+  'TensorFlow',
+
 ];
 
 export default myTechStack;

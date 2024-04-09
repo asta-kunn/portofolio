@@ -17,8 +17,8 @@ function ProfilePicture() {
     <Link href="/about">
       <div className="group w-28 h-28 rounded-full p-[6px] bg-stone-50">
         <Image
-          src="/author_fill.webp"
-          alt="Zidane Novanda Putra"
+          src="/foto_rifqi.jpg"
+          alt="Muhammad Rifqi Adli Gumay"
           width={500}
           height={500}
           className="grayscale w-full h-full object-cover object-center rounded-full group-hover:grayscale-0"
@@ -37,15 +37,15 @@ function ProfileContact() {
 
       <div className="flex flex-col gap-3">
         <ProfileCard.ProfileLinkContact
-          href="mailto:znovandaputra@gmail.com"
+          href="mailto:rifqibradley12@gmail.com"
           icon={<SiGmail className="text-[#EA4335]" />}
-          text="znovandaputra@gmail.com"
+          text="rifqibradley12@gmail.com"
         />
 
         <ProfileCard.ProfileLinkContact
           href="https://www.linkedin.com/in/zidane-novanda-putra-58a9b3227/"
           icon={<SiLinkedin className="text-[#0A66C2]" />}
-          text="Zidane Novanda Putra"
+          text="Muhammad Rifqi Adli Gumay"
         />
       </div>
     </div>

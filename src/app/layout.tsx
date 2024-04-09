@@ -21,17 +21,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NODE_ENV === 'development'
     ? 'http://localhost:3000' : process.env.DOMAIN || ''),
-  title: `Zidane Novanda Putra ${METADATA.exTitle}`,
+  title: `Muhammad Rifqi Adli Gumay ${METADATA.exTitle}`,
   description: METADATA.description,
   keywords: METADATA.keyword,
   creator: METADATA.creator,
   authors: {
     name: METADATA.creator,
-    url: METADATA.openGraph.url,
   },
   openGraph: {
-    images: METADATA.profile,
-    url: METADATA.openGraph.url,
     siteName: METADATA.openGraph.siteName,
     locale: METADATA.openGraph.locale,
     type: 'website',

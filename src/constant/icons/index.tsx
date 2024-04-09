@@ -29,6 +29,14 @@ import {
   SiSwr,
   SiMdx,
   SiReacthookform,
+  SiDjango,
+  SiPycharm,
+  SiTensorflow,
+  SiKeras,
+  SiSpringboot,
+  SiJupyter,
+  SiExpress,
+  SiPostgresql,
 } from 'react-icons/si';
 
 type StacksProps = {
@@ -65,6 +73,14 @@ const Icons: StacksProps = {
   Redux: <SiRedux className="text-[#764ABC]" />,
   ReactHookForm: <SiReacthookform className="text-[#EC5990]" />,
   Zustand: '🐻',
+  Django: <SiDjango className="text-[#5A0FC8]" />,
+  PyCharm: <SiPycharm className="text-[#000000]" />,
+  TensorFlow: <SiTensorflow className="text-[#FF6F00]" />,
+  Keras: <SiKeras className="text-[#D00000]" />,
+  Springboot: <SiSpringboot className="text-[#6DB33F]" />,
+  Jupyter: <SiJupyter className="text-[#F37626]" />,
+  ExpressJs: <SiExpress className="text-[#000000]" />,
+  PostgreSql: <SiPostgresql className="text-[#336791]" />,
 };
 
 export default Icons;

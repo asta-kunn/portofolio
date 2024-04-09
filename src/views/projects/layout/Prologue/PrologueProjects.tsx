@@ -9,7 +9,7 @@ export default function PrologueProjects() {
       <PrologueSection
         title="Projects"
         icon={<LuLayout />}
-        paragraph="Showcasing my journey to become front-end web developer through projects. On this page i want to display project showcase while i was learning code (front-end web development) by myself."
+        paragraph="Showcasing my journey to become full-stack web developer and data tech through projects. On this page i want to display project showcase while i was learning code by myself."
       />
 
       <Line size="sm" className="my-8" />

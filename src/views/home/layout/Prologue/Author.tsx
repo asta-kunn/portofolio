@@ -8,15 +8,15 @@ import Link from 'next/link';
 
 const myFullname = [
   {
-    text: 'zidane',
+    text: 'Muhammad',
     delay: 0,
   },
   {
-    text: 'novanda',
+    text: 'Rifqi Adli',
     delay: 0.5,
   },
   {
-    text: 'putra',
+    text: 'Gumay',
     delay: 0.75,
   },
 ];
@@ -70,7 +70,7 @@ export default function Author() {
       >
         <Link href="/about">
           <Image
-            src="/author.webp"
+            src="/foto_rifqi.jpg"
             alt="Author"
             priority
             width={500}

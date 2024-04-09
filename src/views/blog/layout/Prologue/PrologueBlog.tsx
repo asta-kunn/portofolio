@@ -9,7 +9,7 @@ export default function PrologueBlog() {
       <PrologueSection
         title="Blog"
         icon={<LuNewspaper />}
-        paragraph="I share my process, experiences, tips and resources related to web development specially front-end web development, in my blog to help others on their web development journey."
+        paragraph="I share my process, experiences, tips and resources related to web development specially full-stack web development and data tech, in my blog to help others on their web development journey."
       />
 
       <Line size="sm" className="my-8" />

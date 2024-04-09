@@ -1,92 +1,63 @@
 ---
-title: "Mushaf App"
-subtitle: "The web application like other Muslim apps, provides Al-Quran include vocal audio, daily prayers, etc."
-date: "2023-11-11"
-image: "/assets_porto/mushaf_app/home.svg"
-thumbnail: '/assets_porto/mushaf_app/mushaf.png'
+title: "Kembangin App"
+subtitle: "The web application for recomendation child health"
+date: "2022-12-11"
+image: "/assets_porto/kembangin/kembangin.png"
+thumbnail: '/assets_porto/kembangin/kembangin.png'
 theme: '#00AD7C'
-stacks: ['TypeScript', 'React', 'Vite', 'PWA', 'MUI', 'ReactQuery', 'ReactRouter']
+stacks: ['Django', 'Bootstrap']
 projectType: 'Website'
-repository: 'https://github.com/ZnovandaP/mushaf-app'
-livePreview: 'https://mushaf-app.vercel.app/'
+repository: 'https://github.com/pbp-fasilkom-c02/kembangin'
+livePreview: 'https://github.com/pbp-fasilkom-c02/kembangin'
 ---
 
 ## Backstory Why Me Made This Project?
 
-Project Mushaf App is a Muslim application, Mushaf App provide a complete Al-Quran with translate
-(Bahasa), audio from professional Qory, included Quran interpretation, collection of daily prayers, 99 
-Asmaul-Alhusna, and collection of tahlil prayers.
+Kembangin is a website designed to assist in the growth and development of children. The website offers a range of features that includes a BMI calculator, a forum where parents can ask questions to doctors, articles about child development, and recommendations for medication for children.
 
-Project Mushaf App was build with one of modern technology front-end web development namely `ReactJS` 
-combined with `TypeScript`. Mushaf App is my first time project which build on `React + TS`. There are 
-some additional package dependencies for supporting this project. These include `Vite` for front-end 
-module bundler, `ReactRouter` for routing, `ReactQuery` for fetching data, and `Material UI (MUI)` for 
-building UI, Mushaf App has implemented `PWA` (Progressive Web Apps) technology. so has implemented 
-PWA on this project has the advantage of a website being like a native application. Mushaf App build 
-with `SPA` (Single Page Appliacation) architecture.  
+
+As a web developer, I have several years of experience in developing websites with a user-centered design approach. I have a strong background in HTML, CSS, JavaScript, and other web development technologies. I have developed several websites with various features, such as e-commerce platforms, social networking sites, and online booking systems. I am skilled in developing websites that are responsive, mobile-friendly, and accessible, ensuring a seamless user experience across all devices.
+
 
 ### Goals Build This Project
 
 Main goals for building this project, including the following: 
 
-- To exercise and implement `React + TypeScript` after i learn this technology.
-- To exercise and deeping `Built in React Hook`
-- Learning about how to build website UI Component Library with `Material UI`
-- Learning about how to fetching data with `ReactQuery`
+- To exercise and implement `Django` after i learn this technology.
+- To exercise and deeping `Ajax`
 
 I was learning a lot about front-end web development while build this project, after i finish this
 project, i think my programming skills are improved over time. 
-
-## Feature on Mushaf App Project
-
-The Mushaf App Project has several features, including the following:
-  - Has implemented web responsive for multiple device
-  - Has feature dark mode
-  - Home Page
-    - Home section
-    - About project section
-    - Feature card section
-    - Ayat of the day and doa of the day section
-    - Footer Section
-  - Al-Quran Page
-    - Displaying All data Al-Quran 
-  - Surah Page
-    - Displaying data Surah Al-Quran which user pick
-    - Feature translate by ayat 
-    - Feature Quran interpretation by ayat 
-    - Feature Audio Qory 
-  - Doa sehari-hari (collection of daily prayers) Page
-  - Doa sehari-hari (collection of Tahlil prayers) Page
-  - 99 collection of Asmaul-Alhusna Page
 
 ## How to Start this project
 
 #### 1. Clone repository using git
 
 ```bash
-git clone https://github.com/ZnovandaP/mushaf-app.git
+git clone https://github.com/pbp-fasilkom-c02/kembangin.git
 ```
 
 #### 2. Install all dependencies
 
 ```bash
-pnpm install
+pip install -r "requirements.txt"
 ```
 
-#### 3. Run development server
+#### 3. Migrate the database
 
 ```bash
-pnpm run dev
+python manage.py makemigrations
+python manage.py migrate
 ```
-Open http://localhost:3000 with your browser to see the result.
 
-## Responsive Web Design on Multiple Devices
+#### 4. Run the server deployment
 
-![Ilustration responsive design Mushaf App Project](/assets_porto/mushaf_app/responsive.svg)
+```bash
+python manage.py runserver
+```
+Open http://localhost:8000 with your browser to see the result.
 
 
 ### Last but not least
 
-if you interested on this project, you can visit this project directly 
-[Mushaf App Project](https://mushaf-app.vercel.app/), 
-also you can visit on Github [Repository Mushaf App Project](https://github.com/ZnovandaP/mushaf-app/), last if you wanna give me suggesstion or advice you can go to contact page directly. Thankyou so much.  
+if you interested on this project, you can visit on Github [Repository Kembangin App Project](https://github.com/pbp-fasilkom-c02/kembangin), last if you wanna give me suggesstion or advice you can go to contact page directly. Thankyou so much.  

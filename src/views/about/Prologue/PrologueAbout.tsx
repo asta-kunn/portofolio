@@ -12,13 +12,13 @@ export default function PrologueAbout() {
         <PrologueSection
           title="About Me"
           icon={<LuUser2 />}
-          paragraph="I will share short story about me, about my journey why i learn programming specially front-end web development"
+          paragraph="I will share short story about me, about my journey why i learn programming specially full-stack web development and data tech"
         />
 
         <div className="flex mt-4 sm:mt-0 sm:absolute sm:-bottom-[3.5rem] sm:right-1/2 sm:translate-x-1/2">
           <ButtonLink
             text="My Resume"
-            href="/Zidane_Novanda_Putra_Resume.pdf"
+            href="/CV Rifqi.pdf"
             target="_blank"
             icon={<HiOutlineNewspaper />}
             download

@@ -5,8 +5,8 @@ import BlogViews from '@/views/blog';
 
 export const metadata: Metadata = {
   title: `Blog ${METADATA.exTitle}`,
-  description: 'My blogs content sharing about programming specially front-end web development and tech',
-  keywords: 'blog znovandap, znovandap',
+  description: 'My blogs content sharing about programming specially full-stack web development and data tech',
+  keywords: 'blog rifqiadli, rifqiadli',
   alternates: {
     canonical: `${process.env.DOMAIN}/blog`,
   },

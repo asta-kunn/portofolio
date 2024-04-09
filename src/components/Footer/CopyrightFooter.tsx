@@ -8,7 +8,7 @@ export default function CopyrightFooter() {
         {' '}
         {new Date().getFullYear()}
         {' '}
-        Zidane Novanda Putra, All rights reserved
+        Muhammad Rifqi Adli Gumay, All rights reserved
       </h3>
     </section>
   );

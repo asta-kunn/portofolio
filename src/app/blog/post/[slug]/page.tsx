@@ -19,12 +19,11 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     title: `${frontMatter?.title || 'Post Not Found'} ${METADATA.exTitle}`,
     description: frontMatter?.subtitle || 'Description Not Found',
     openGraph: {
-      images: frontMatter?.image || 'Image post not found',
       url: `${process.env.DOMAIN}/${blog?.slug || ''}`,
       siteName: METADATA.openGraph.siteName,
       locale: METADATA.openGraph.locale,
       type: 'article',
-      authors: 'Zidane Novanda Putra',
+      authors: 'Muhammad Rifqi Adli Gumay',
     },
     keywords: frontMatter?.title || 'Post Not Found',
     alternates: {

@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: DetailProjectsPageProps): Pro
       siteName: METADATA.openGraph.siteName,
       locale: METADATA.openGraph.locale,
       type: 'article',
-      authors: 'Zidane Novanda Putra',
+      authors: 'Muhammad Rifqi Adli Gumay',
     },
     keywords: frontMatter?.title || 'Project Not Found',
     alternates: {

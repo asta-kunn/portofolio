@@ -7,7 +7,7 @@ export default function BadgeLocation() {
       <h2 className="flex justify-between gap-4 mb-4">
         <span className="flex flex-col">
           <span className="font-semibold">
-            Live in Cimahi City
+            Live in Depok City
           </span>
 
           <span className="text-sm">
@@ -21,7 +21,7 @@ export default function BadgeLocation() {
       </h2>
 
       <Link
-        href="/contact#contactme"
+        href="https://www.linkedin.com/in/rifqi-adli/"
         className="absolute center gap-3 -bottom-[14px] left-1/2 -translate-x-1/2 py-1 px-4 rounded-full bg-transparent ring-2 ring-green-600/60 font-semibold hover:scale-105 active:scale-95 transition-all"
       >
         Hire me

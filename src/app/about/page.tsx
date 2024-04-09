@@ -5,8 +5,8 @@ import AboutView from '@/views/about';
 
 export const metadata: Metadata = {
   title: `About ${METADATA.exTitle}`,
-  description: 'About page on znovandap.com, contains my biodata and my journy why i\'am interest to become a front-end web developer',
-  keywords: 'about znovandap, znovandap about, zidane novanda putra about, about zidane novanda putra',
+  description: 'About page on rifqiadli, contains my biodata and my journy why i\'am interest to become a front-end and back-end web developer',
+  keywords: 'about rifqiadli, rifqiadli about, Muhammad Rifqi Adli Gumay about, about Muhammad Rifqi Adli Gumay',
   alternates: {
     canonical: `${process.env.DOMAIN}/about`,
   },
