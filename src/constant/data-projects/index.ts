@@ -4,7 +4,7 @@ const dataProjects = [
     to: '/',
     theme: '',
     description: '',
-    summary: 'This website contains detailed information about me as a front-end web developer.',
+    summary: 'This website contains detailed information about me as a full-stack web developer.',
     image: {
       thumbnail: '/assets_porto/portofolio_rifqi/portofolio_iqi.png',
       primary: '/assets_porto/znovandadotcom/home.svg',

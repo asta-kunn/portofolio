@@ -19,7 +19,7 @@ export default function LatestProjects() {
           title="Latest Projects"
           icon={<LuLayout />}
           type="head-section"
-          paragraph="This is my latest project as a front-end web developer, you could say this is a record of my journey to becoming a front-end web developer"
+          paragraph="This is my latest project as a full-stack web developer and data tech, you could say this is a record of my journey to becoming a software engginer"
         />
 
         <CardProjects />
