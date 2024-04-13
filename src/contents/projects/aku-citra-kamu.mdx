@@ -1,0 +1,58 @@
+---
+title: "Image Binary Segmentation with Conventional and DeepLearning Method"
+subtitle: "Image Binary Segmentation on Eschickon Wheat Dataset using Conventional Methods and Deep Learning"
+date: "2023-12-10"
+image: "/assets_porto/akucitrakamu/akucitrakamu.png"
+thumbnail: '/assets_porto/akucitrakamu/akucitrakamu.png'
+theme: '#00AD7C'
+stacks: ['TensorFlow', 'Jupyter']
+projectType: ['Computer Vision']
+repository: 'https://drive.google.com/drive/folders/1Zqqb7Bf5R3y-7mVI93rpzT4x1Ulmgd-B?usp=sharing'
+livePreview: 'https://drive.google.com/drive/folders/1Zqqb7Bf5R3y-7mVI93rpzT4x1Ulmgd-B?usp=sharing'
+---
+
+## Backstory Why Me Made This Project?
+
+Along with the advancement of technology in the field of computer vision in this digital era, many problems arise that can be easily solved by leveraging technology. One example is object segmentation from image data, which can facilitate the recognition of related objects. This progress brings many benefits to human life, including in the field of agriculture. Wild plant image segmentation in outdoor environments is an example of the application of image processing technology and computer vision.
+
+Eschikon Wheat Segmentation is a task involving the segmentation of wild plant images in outdoor environments. Image segmentation in this context presents many challenges due to the diverse environmental conditions where wild plants grow. Wild plants grow in highly varied conditions, ranging from differences in light intensity to the influence of the surrounding environment, including shadows produced by the plants themselves. This directly affects the quality of the image and the accuracy of the segmentation results produced.
+
+In an effort to address these challenges, sophisticated algorithms are needed for segmenting wild plant images under various conditions. These algorithms must be consistently and efficiently capable of producing segmentation. Therefore, in this experiment, the author used a combination of conventional methods and deep learning techniques to develop a robust algorithm.
+
+### Goals Build This Project
+
+Main goals for building this project, including the following: 
+
+- To exercise and implement `Deep Learning Method` after i learn this technology.
+- To exercise and implement `Conventional Method` after i learn this technology.
+
+I was learning a lot about computer vision while build this project, after i finish this
+project, i think my programming skills are improved over time. 
+
+## Conventional Method
+The conventional method we tried is the color index-based approach. We obtained several methods that provide fairly good results, although there is still a lot of noise. Examples include the ExG, CIVE, VEG, MExG, and COM2 methods. We plan to use other conventional methods, such as thresholding, to improve segmentation results further. Evaluation results show improvements in some cases, but some images still exhibit accuracy below the set threshold, indicating the need for further adjustments to the methods or parameters used.
+
+For the Otsu thresholding method, we performed color channel conversion, applied Otsu thresholding, and evaluated segmentation accuracy by comparing the results with the true mask. Evaluation results show improvements in some cases, but there are still some images with accuracy below the set threshold. This indicates the need for further adjustments to the methods or parameters used to achieve optimal accuracy. Below is an example of segmentation results on one of the testing datasets.
+![image](/assets_porto/akucitrakamu/conventional-result.png)
+
+And this is the IOU Score comparison on each conventional model we use
+![image](/assets_porto/akucitrakamu/conventional-model.png)
+
+
+## DeepLearning Method
+Proses dengan deep learning sudah dilakukan dengan dua metode, yaitu U-Net dan DeepLabV3+. Dengan menggunakan loss function Binary Cross Entropy, untuk U-Net didapatkan rata-rata loss sebesar 0.44. Dimana pada DeepLabV3+ mendapatkan rata-rata loss sebesar 0.273, sedikit lebih rendah jika dibandingkan U-Net. Berikut adalah contoh hasil segmentasi pada salah satu data testing.
+### U-Net
+![image](/assets_porto/akucitrakamu/unet-result.png)
+IoU = 0.8302320017686974
+
+Speed : dengan menggunakan metrics measure latency = 0.109845638275 
+
+Robustness score: 0.7895750917996264
+
+### DeepLabV3+
+![image](/assets_porto/akucitrakamu/deeplabv3+-result.png)
+IoU = 0.872769966769024 
+
+Speed : dengan menggunakan metrics measure latency = 0.116718838 
+
+Robustness score: 0.850178280703008
