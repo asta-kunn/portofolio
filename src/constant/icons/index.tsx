@@ -37,6 +37,8 @@ import {
   SiJupyter,
   SiExpress,
   SiPostgresql,
+  SiKotlin,
+  SiAndroidstudio,
 } from 'react-icons/si';
 
 type StacksProps = {
@@ -81,6 +83,8 @@ const Icons: StacksProps = {
   Jupyter: <SiJupyter className="text-[#F37626]" />,
   ExpressJs: <SiExpress className="text-[#000000]" />,
   PostgreSql: <SiPostgresql className="text-[#336791]" />,
+  Kotlin: <SiKotlin className="text-[#0095D5]" />,
+  AndroidStudio: <SiAndroidstudio className="text-[#3DDC84]" />,
 };
 
 export default Icons;
