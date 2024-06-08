@@ -43,7 +43,7 @@ function ProfileContact() {
         />
 
         <ProfileCard.ProfileLinkContact
-          href="https://www.linkedin.com/in/zidane-novanda-putra-58a9b3227/"
+          href="https://www.linkedin.com/in/rifqi-adli/"
           icon={<SiLinkedin className="text-[#0A66C2]" />}
           text="Muhammad Rifqi Adli Gumay"
         />
